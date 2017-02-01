@@ -2,7 +2,11 @@
 
 # Install redshift, redshift config
 
-# Install atom, get atom config
+# Atom
+# Installation commands copied from Atom website:
+sudo dpkg -i atom-amd64.deb
+# Install Atom's dependencies if they are missing (command from website):
+sudo apt-get -f install
 
 # Set up Heroku
 
