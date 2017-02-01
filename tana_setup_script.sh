@@ -10,11 +10,13 @@
 
 
 # Then install useful gems
+gem install gist
 gem install tux
 
 
 # Install useful programs
-# MAKE THIS OPTIONAL
+# MAKE EACH ONE OPTIONAL?
 # slack
 # ARandR
 # inkscape
+# skype
