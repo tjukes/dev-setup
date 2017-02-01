@@ -1,0 +1,24 @@
+### Copy the contents of this file into ~/.gitconfig ###
+
+[core]
+  excludesfile = /home/tanaryder/.gitignore_global
+	editor = atom --wait
+[user]
+#    personal values removed for privacy
+#    name =
+#    email =
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=local
+    sup = log -5 --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=local
+    fixup = !sh -c 'git commit --fixup=$1' -
+    squash = !sh -c 'git commit --squash=$1' -
+[branch]
+    autosetuprebase = always
+[push]
+    default = simple
+[color]
+    ui = true
+[rebase]
+    autosquash = true
+[hub]
+    protocol = ssh
