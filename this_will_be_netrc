@@ -1,0 +1,6 @@
+machine api.heroku.com
+  login tana.jukes@gmail.com
+  password e61865b9-a992-4b22-9309-7a8d76a0c6c4
+machine git.heroku.com
+  login tana.jukes@gmail.com
+  password e61865b9-a992-4b22-9309-7a8d76a0c6c4
