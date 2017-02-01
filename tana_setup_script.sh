@@ -4,6 +4,8 @@
 
 # Install atom, get atom config
 
+# Set up Heroku
+
 
 # Install Ruby, make sure have access to gem install
 # Ruby version manager (rvm or?)
