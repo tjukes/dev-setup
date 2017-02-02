@@ -16,6 +16,26 @@ sudo apt-get -f install
 # Install Ruby, make sure have access to gem install
 # Ruby version manager (rvm or?)
 
+# RBENV PROCESS, from https://github.com/rbenv/rbenv
+mkdir ~/.rbenv
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+# Add to '$PATH' - note this line assumes zsh setup; if not, instead modify ~/.bash_profile or ~/.bashrc 
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+# Then get shell-specific instructions for initializing rbenv
+~/.rbenv/bin/rbenv init
+# With current setup, the next command was
+# echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+# RESTART SHELL - close & re-open, or new tab
+# Check that rbenv is a function
+type rbenv
+# To update, run 'git pull' from rbenv directory
+
+# Then install ruby-build to make it easy to install other versions of Ruby
+# Instructions from https://github.com/rbenv/ruby-build#readme
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+# To update, run 'git pull' from directory
+
+
 
 # Then install useful gems
 gem install gist
