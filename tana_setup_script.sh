@@ -38,6 +38,9 @@ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 
 # Then install useful gems
+# Important ones first, for functionality
+gem install bundler
+
 gem install gist
 gem install tux
 
