@@ -39,6 +39,8 @@ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 rbenv install 2.4.0
 # and set it as the globally preferred version
 rbenv global 2.4.0
+# and install new shims -- necessary after installing new Ruby version or gem that provides commands
+rbenv rehash
 
 
 # Then install useful gems
