@@ -35,6 +35,10 @@ type rbenv
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 # To update, run 'git pull' from directory
 
+# Then install latest version of Ruby (currently 2.4.0, check this before running)
+rbenv install 2.4.0
+# and set it as the globally preferred version
+rbenv global 2.4.0
 
 
 # Then install useful gems
