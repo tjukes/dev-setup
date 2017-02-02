@@ -1,6 +1,8 @@
 # Copy all config files - git bashrc zsh
 
 # Install redshift, redshift config
+# Redshift config file is not auto-generated -- good idea to keep the one I already have
+# Link to my Redshift config in this repo: https://raw.githubusercontent.com/tjukes/dev-setup/master/this_will_be_config_redshift_conf?token=AM-_iM5mqbRNSXIMBpx5VliPk6jOpfylks5Ym7cwwA%3D%3D
 
 # Atom
 # Installation commands copied from Atom website:
