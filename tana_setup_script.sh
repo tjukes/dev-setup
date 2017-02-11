@@ -1,5 +1,5 @@
 # SET UP SHELL
-# Copy all config files - git bashrc zsh
+# Install zsh
 sudo apt install zsh
 # Confirm that zsh version is greater than 4.3.9
 zsh --version
@@ -22,6 +22,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 sudo apt-get install redshift
 # Redshift config file is not auto-generated -- good idea to keep the one I already have (copy from 'real' backup in this repo):
 curl https://raw.githubusercontent.com/tjukes/dev-setup/master/real/.config/redshift.conf?token=AM-_iAq1oaaz9EbO7K7B31NvLp-I4A0Pks5Yp7X1wA%3D%3D > ~/.config/redshift.conf
+
+
+
+#Install Git
+sudo apt-get install git
+# Set up ~/.gitconfig and ~/.gitignore_global: copy files, make sure usernames etc are right
+
+
 
 # Atom
 # FIRST - download .deb from https://atom.io/
