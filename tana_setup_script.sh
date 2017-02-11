@@ -6,6 +6,8 @@ sudo apt-get install redshift
 curl https://raw.githubusercontent.com/tjukes/dev-setup/master/real/.config/redshift.conf?token=AM-_iAq1oaaz9EbO7K7B31NvLp-I4A0Pks5Yp7X1wA%3D%3D > ~/.config/redshift.conf
 
 # Atom
+# FIRST - download .deb from https://atom.io/
+# THEN
 # Installation commands copied from Atom website:
 sudo dpkg -i atom-amd64.deb
 # Install Atom's dependencies if they are missing (command from website):
