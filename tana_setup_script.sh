@@ -1,4 +1,16 @@
+# SET UP SHELL
 # Copy all config files - git bashrc zsh
+sudo apt install zsh
+# Confirm that zsh version is greater than 4.3.9
+zsh --version
+# Try to set zsh as default shell
+chsh -s $(which zsh)
+# Check to see if it worked
+echo $SHELL
+# If it didn't (quite possible), add this to the bottom of ~/.bashrc (including comment to explain)
+  # Use zsh - command added here because regular setup didn't work
+  zsh
+
 
 # Install redshift
 sudo apt-get install redshift
