@@ -11,6 +11,12 @@ echo $SHELL
   # Use zsh - command added here because regular setup didn't work
   zsh
 
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# Update config file manually for now - change theme to "sunrise"
+# Let heroku etc update config automatically
+
+
 
 # Install redshift
 sudo apt-get install redshift
