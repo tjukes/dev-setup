@@ -92,6 +92,11 @@ gem install gist
 gem install tux
 
 
+# Install NodeJS
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+
 # Install useful programs
 # MAKE EACH ONE OPTIONAL?
 # slack
