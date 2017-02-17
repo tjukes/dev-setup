@@ -65,12 +65,18 @@ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 # To update, run 'git pull' from directory
 
 # Then install latest version of Ruby (currently 2.4.0, check this before running)
+# NOTE see below in case of error: "configure: error: no acceptable C compiler found in $PATH"
 rbenv install 2.4.0
 # and set it as the globally preferred version
 rbenv global 2.4.0
 # and install new shims -- necessary after installing new Ruby version or gem that provides commands
 rbenv rehash
 
+# Troubleshooting: in case of error "configure: error: no acceptable C compiler found in $PATH"
+# Apparently Ubuntu doesn't come with a default C compiler, so run
+sudo apt-get install build-essential
+# Then try installing Ruby/Rubies again
+# There may be errors... eg, had to run "sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev" to install missing dependencies
 
 # Then install useful gems
 # Important ones first, for functionality
