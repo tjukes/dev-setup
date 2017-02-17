@@ -21,6 +21,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 sudo apt-get install ubuntu-restricted-extras
 
 
+# Read this to figure out how to make bootup smoother: https://mrchromebox.tech/#fwscript
+
+
 # Install redshift
 sudo apt-get install redshift
 # Redshift config file is not auto-generated -- good idea to keep the one I already have (copy from 'real' backup in this repo):
