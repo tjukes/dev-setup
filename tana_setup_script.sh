@@ -17,6 +17,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Let heroku etc update config automatically
 
 
+# If OS install & setup didn't include firmware/codecs/etc with restricted licenses, install them now:
+sudo apt-get install ubuntu-restricted-extras
+
 
 # Install redshift
 sudo apt-get install redshift
