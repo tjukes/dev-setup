@@ -96,6 +96,10 @@ gem install tux
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+# Then install useful packages
+npm install minimist   # For parsing CLI option strings
+
+
 
 # Install useful programs
 # MAKE EACH ONE OPTIONAL?
