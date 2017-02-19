@@ -45,8 +45,6 @@ sudo dpkg -i atom-amd64.deb
 # Install Atom's dependencies if they are missing (command from website):
 sudo apt-get -f install
 
-# Set up Heroku
-
 
 # Install Ruby, make sure have access to gem install
 # Ruby version manager (rvm or?)
@@ -102,6 +100,16 @@ sudo npm install npm@latest -g
 # Then install useful packages
 npm install minimist   # For parsing CLI option strings
 
+
+# Set up Heroku
+sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install heroku
+# Verify installation by checking version
+heroku --version
+# Log in 
+heroku login    # Enter email address and password at prompt
 
 
 # Install useful programs
