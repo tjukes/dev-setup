@@ -45,6 +45,10 @@ sudo dpkg -i atom-amd64.deb
 # Install Atom's dependencies if they are missing (command from website):
 sudo apt-get -f install
 
+# Linters
+apm install linter
+# Javascript
+apm install linter-jshint
 
 # Install Ruby, make sure have access to gem install
 # Ruby version manager (rvm or?)
