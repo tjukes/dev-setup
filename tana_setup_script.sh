@@ -134,6 +134,10 @@ heroku --version
 heroku login    # Enter email address and password at prompt
 
 
+# Useful dev-related packages
+sudo npm install http-server -g   # Simple serving of basic front-end stuff
+
+
 # Install useful programs
 # MAKE EACH ONE OPTIONAL?
 # slack
