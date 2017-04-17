@@ -112,6 +112,11 @@ npm install minimist   # For parsing CLI option strings
 sudo npm install -g jasmine   # For easy CLI access to testing commands
 
 
+# PostgreSQL
+sudo apt-get install postgresql
+sudo apt-get install libpq-dev
+
+
 # Set up Heroku
 sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
 curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
