@@ -144,3 +144,4 @@ sudo npm install http-server -g   # Simple serving of basic front-end stuff
 # ARandR
 # inkscape
 # skype
+sudo apt-get install pdftk   # For easy CLI PDF handling (remove/concatenate pages, etc)
