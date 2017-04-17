@@ -134,6 +134,10 @@ heroku --version
 heroku login    # Enter email address and password at prompt
 
 
+# AWS/EB, if you dare...
+# pip install awsebcli    # Elastic Beanstalk CLI (useful if you can handle AWS/EB and retain sanity)
+
+
 # Useful dev-related packages
 sudo npm install http-server -g   # Simple serving of basic front-end stuff
 
