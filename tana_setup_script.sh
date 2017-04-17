@@ -109,6 +109,7 @@ sudo npm install npm@latest -g
 
 # Then install useful packages
 npm install minimist   # For parsing CLI option strings
+sudo npm install -g jasmine   # For easy CLI access to testing commands
 
 
 # Set up Heroku
