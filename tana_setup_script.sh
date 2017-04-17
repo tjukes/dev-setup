@@ -117,6 +117,12 @@ sudo apt-get install postgresql
 sudo apt-get install libpq-dev
 
 
+# Python setup
+pip install -U pip    # make sure to have up-to-date pip
+pip install Django
+pip install psycopg2    # Make Python & Postgres talk to each other happily
+
+
 # Set up Heroku
 sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
 curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
