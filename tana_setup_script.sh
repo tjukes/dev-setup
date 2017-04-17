@@ -52,6 +52,9 @@ sudo apt-get -f install
 apm install linter
 # Javascript
 apm install linter-jshint
+# 'Beautify' for everything else (also does HTML)
+apm install atom-beautify
+
 
 # Install Ruby, make sure have access to gem install
 # Ruby version manager (rvm or?)
