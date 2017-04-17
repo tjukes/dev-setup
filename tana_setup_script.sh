@@ -29,6 +29,9 @@ sudo apt-get install redshift
 # Redshift config file is not auto-generated -- good idea to keep the one I already have (copy from 'real' backup in this repo):
 curl https://raw.githubusercontent.com/tjukes/dev-setup/master/real/.config/redshift.conf?token=AM-_iAq1oaaz9EbO7K7B31NvLp-I4A0Pks5Yp7X1wA%3D%3D > ~/.config/redshift.conf
 
+# Set up aliases to change terminal colours from 'day' to 'night' mode
+curl https://gist.githubusercontent.com/tjukes/af8fd45cea35ca2e13df8de7c080155f/raw/abd8a5f504176efd745548a699a633a7b196a35c/aliases.zsh > ~/.oh-my-zsh/custom/aliases.zsh
+
 
 
 #Install Git
